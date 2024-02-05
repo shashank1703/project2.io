@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <header class="header-content">
+            <a href="" class="logo">
+                <img src="book.png" alt="" class="logo-img">
+                <span class="logo-name">
+                    LakshyaDhweep
+                </span>
+            </a>
+            <nav class="nav">
+                <a href="home.html" class="nav-l">Home</a>
+                <a href="" class="nav-l">Features</a>
+                <a href="" class="nav-l">Pricing</a>
+                <a href="" class="nav-l">Blog</a>
+                <a href="" class="nav-l">About</a>
+            </nav>
+            <!-- <button class="contactBtn" onclick="openForm()">
+                Contact Us
+            </button> -->
+            <button class="contact-btn" onclick="toggleContactForm()">Contact Us</button>
+
+            <div class="contact-form-wrapper" id="contactFormWrapper">
+                <div class="contact-form" id="contactForm">
+                    <span class="close" onclick="toggleContactForm()">&times;</span>
+                    <h2>Contact Us</h2>
+                    <form action="#" method="post" id="myForm" autocomplete="off">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <button class="menu">
+                <img src="hamburger.png" alt="" class="menu-button">
+            </button>
+        </header>
+    </div>
+    
+    <div class="content">
+        <div class="section">
+            <div class="left-section">
+                <p class="left-heading">Very Proud To Introduce</p>
+                <h1 class="section-title">Seamless Learning For Better Future</h1>
+                <p class="left-description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ipsam esse aperiam doloribus fuga, illo numquam ratione perferendis voluptatum distinctio amet reiciendis, impedit earum voluptatibus odio nobis? Nemo labore harum totam molestias expedita fuga nobis.
+                </p>
+                <div class="button-group">
+                    <a href="" class="button1">Start Now</a>
+                    <a href="" class="button2">Take Tour</a>
+                </div>
+            </div>
+            <div class="section-right">
+                <div class="image-right">
+                    <img src="img2.png" alt="" class="section-image">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="small-nav">
+        <h1 class="headsmall">This is heading1</h1>
+        <div class="company-container">
+            <div class="Company-logo">
+                <img src="book.png" alt="" class="lgo">
+                <h2 class="company-n">Linked In</h2>
+            </div>
+            <div class="Company-logo">
+                <img src="book.png" alt="" class="lgo">
+                <h2 class="company-n">Twitter</h2>
+            </div>
+            <div class="Company-logo">
+                <img src="book.png" alt="" class="lgo">
+                <h2 class="company-n">Microsoft</h2>
+            </div>
+            <div class="Company-logo">
+                <img src="book.png" alt="" class="lgo">
+                <h2 class="company-n">Google</h2>
+            </div>
+        </div> 
+    </div>
+    <div class="featureContainer">
+        <div class="featureContent">
+            <div class="feature-info">
+                <h2 class="main-title">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </h2>
+                <p class="main-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt laborum unde repellendus minima nulla omnis dolor delectus hic laboriosam, vel, cum esse in tempore eligendi sint et. Unde, laborum facere!
+                </p>
+            </div>
+            <div class="featureGrid">
+                <div class="element Grid-1">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+                <div class="element Grid-2">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+                <div class="element Grid-3">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+                <div class="element Grid-4">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+                <div class="element Grid-5">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+                <div class="element Grid-6">
+                    <img src="img2.png" alt="" class="logoFeatureElement">
+                    <h2>Tag Line</h2>
+                    <p class="elementPara">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis sunt mollitia perspiciatis, autem quaerat sapiente!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
